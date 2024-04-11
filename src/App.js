@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
-import MyComponent from "./components/MyComponent";
-
+import "./App.scss";
+import React from "react";
+import Button from "react-bootstrap/Button";
 function App() {
   return (
-    <div className="App">
-      <MyComponent />
+    <div className="app-container">
+      <Button variant="primary">Primary</Button>
     </div>
   );
 }
